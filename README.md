@@ -1,4 +1,4 @@
-# YouTube Learning Notes
+# YouTube Learning Notes Skill
 
 A Codex skill for turning a YouTube video into comprehensive, transcript-grounded learning notes with optional visual highlights.
 
@@ -29,13 +29,13 @@ Clone or copy this folder into your Codex skills directory:
 
 ```bash
 mkdir -p ~/.codex/skills
-cp -R youtube-learning-notes ~/.codex/skills/
+cp -R youtube-learning-notes-skill ~/.codex/skills/
 ```
 
 Then use the skill in Codex by asking for YouTube learning notes, for example:
 
 ```text
-Use $youtube-learning-notes to turn this YouTube video into comprehensive learning notes with visual highlights: https://www.youtube.com/watch?v=...
+Use $youtube-learning-notes-skill to turn this YouTube video into comprehensive learning notes with visual highlights: https://www.youtube.com/watch?v=...
 ```
 
 ## Script usage

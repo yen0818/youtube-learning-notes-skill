@@ -1,4 +1,4 @@
 interface:
-  display_name: "YouTube Learning Notes"
+  display_name: "YouTube Learning Notes Skill"
   short_description: "Study notes with transcript-based screenshots"
-  default_prompt: "Use $youtube-learning-notes to turn this YouTube video into comprehensive learning notes with visual highlights: https://www.youtube.com/watch?v=..."
+  default_prompt: "Use $youtube-learning-notes-skill to turn this YouTube video into comprehensive learning notes with visual highlights: https://www.youtube.com/watch?v=..."

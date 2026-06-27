@@ -1,9 +1,9 @@
 ---
-name: youtube-learning-notes
+name: youtube-learning-notes-skill
 description: Use when the user provides a YouTube video URL and wants a transcript-derived summary, comprehensive learning notes, study guide, course notes, timestamps, key concepts, prompt recipes, visual highlights, screenshots, practice plan, or expert-organized notes from a long video.
 ---
 
-# YouTube Learning Notes
+# YouTube Learning Notes Skill
 
 ## Overview
 
@@ -17,7 +17,7 @@ Turn a YouTube video into polished learning notes grounded in the transcript. Tr
    - Use `scripts/extract_youtube_transcript.py` when possible:
 
 ```bash
-python3 ~/.codex/skills/youtube-learning-notes/scripts/extract_youtube_transcript.py "YOUTUBE_URL" --out-dir work/youtube-learning-notes
+python3 ~/.codex/skills/youtube-learning-notes-skill/scripts/extract_youtube_transcript.py "YOUTUBE_URL" --out-dir work/youtube-learning-notes
 ```
 
 2. Verify transcript coverage.
@@ -39,7 +39,7 @@ python3 ~/.codex/skills/youtube-learning-notes/scripts/extract_youtube_transcrip
    - Use `scripts/capture_youtube_screenshots.py`:
 
 ```bash
-python3 ~/.codex/skills/youtube-learning-notes/scripts/capture_youtube_screenshots.py "YOUTUBE_URL" 00:12:34 01:05:10 --out-dir outputs/video-name-screenshots --cache-dir work/youtube-learning-notes/video-cache
+python3 ~/.codex/skills/youtube-learning-notes-skill/scripts/capture_youtube_screenshots.py "YOUTUBE_URL" 00:12:34 01:05:10 --out-dir outputs/video-name-screenshots --cache-dir work/youtube-learning-notes/video-cache
 ```
 
 5. Write the notes.

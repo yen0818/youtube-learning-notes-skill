@@ -14,7 +14,7 @@ gh auth login
 Create the GitHub repository and push:
 
 ```bash
-gh repo create youtube-learning-notes --public --source . --remote origin --push
+gh repo create youtube-learning-notes-skill --public --source . --remote origin --push
 ```
 
 Use `--private` instead of `--public` if you do not want the repository to be public.
@@ -24,7 +24,7 @@ Use `--private` instead of `--public` if you do not want the repository to be pu
 Create an empty repository on GitHub, then run:
 
 ```bash
-git remote add origin git@github.com:OWNER/youtube-learning-notes.git
+git remote add origin git@github.com:OWNER/youtube-learning-notes-skill.git
 git push -u origin main
 ```
 
